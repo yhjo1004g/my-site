@@ -1,34 +1,68 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>자기소개 - 조영현의 페이지</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 </head>
 <body>
-  <header>
-    <h1>조영현의 페이지</h1>
+    <header>
+        <h1>조영현의 페이지</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="index.html">처음</a></li>
+                <li><a href="about.html">자기소개</a></li>
+                <li><a href="courses.html">수강신청</a></li>
+            </ul>
+        </nav>
+    </header>
     <hr>
-    <nav>
-      <ul>
-        <li><a href="index.html">처음</a></li>
-        <li><a href="about.html">자기소개</a></li>
-        <li><a href="courses.html">수강신청</a></li>
-      </ul>
-    </nav>
-  </header>
-  <hr>
-  <main>
-    <section>
-      <h2>자기소개</h2>
-        <h3>서울it교육센터 직종 뭔가요?</h3>
-          <p>웹 개발을 배우는 수강생입니다.</p>
-        <h3>나이는요?</h3>
-          <p>27살입니다.</p>
-    </section>
-  </main>
-  <footer>
-    <p>&copy; 조영현</p>
-  </footer>
+    <main>
+        <section>
+            <h2>자기소개</h2>
+            <h3>서울it교육센터 직종은 무엇입니까?</h3>
+            <p>코딩 배우는 수강생입니다.</p>
+            <h3>나이는요?</h3>
+            <p>27살입니다.</p>
+        </section>
+    </main>
+    <h1>안녕하세요 조영현 이라고 합니다.</h1>
+        <hr>
+        <h2>코딩을 배우는 이유</h2>
+        <p>기술이 발전하는 시대라서 살아남기 위해서 적응하려고 하는 이유입니다.</p>
+        <h2>살아남기 위해서 모든지 잘 하는 이유</h2>
+        <p>그동안 흑역사와 잡생각을 떨쳐내려고 하는 이유입니다.</p>
+    <form action="https://www.httpbin.org/post" method="post">
+    <h1>연락하기.</h1>
+        <p>
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" requied>
+        </p>
+        <p>
+            <label for="email">이메일</label>
+            <input type="email" id="email" name="email" requied>
+        </p>
+        <p>
+            <label for="course">문의 종류</label>
+            <select id="course" name="course">
+                <option value="CS101">전화하기</option>
+                <option value="CS102">카톡으로 문자하기</option>
+                <option value="DB101">이메일로 보내기</option>
+                <option value="CS103">팩스 보내기</option>
+            </select>
+        </p>
+        <p>
+            <label for="memo">내용</label>
+            <textarea id="memo" memo="memo" rows="5"></textarea>
+        </p>
+        <p>
+            <button type="submit">보내기</button>
+        </p>
+        <p>
+            연습용 폼입니다. 입력한 내용은 연습 서버(httpbin.org)로만 전송됩니다.
+        </p>
+    <footer><p>&copy; 조영현</p></footer>
+    </form>
 </body>
 </html>
