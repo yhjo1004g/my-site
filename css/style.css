@@ -1,69 +1,43 @@
 header {
-    background:#009619;
-    color: rgb(0, 0, 0);
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
-}
-footer {
-    background: #1f2a44;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
     color: white;
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
-    text-align: center;
 }
-section {
-    background: #009619;
-    color: rgb(0, 0, 0);
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
+header h1 {
+    margin: 0;
 }
-article {
-    background: #009619;
-    color: rgb(0, 0, 0);
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
+nav ul {
+    display: flex; gap: 16px;
+    list-style: none; margin: 0; padding: 0;
 }
-h2 {
-    background: #009619;
-    color: rgb(0, 0, 0);
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
-}
-ol {
-    background: #009619;
-    color: rgb(0, 0, 0);
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
-}
-p {
-    background: #69240f;
-    color: rgb(255, 255, 255);
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
+main {
+    max-width: 800px; margin: 0 auto;
+    padding: 16px;
 }
 h1 {
-    background: #1f2a44;
-    color: white;
-    padding: 24px 16px;
-    font-size: 1.125rem;
-    letter-spacing: 0.05em;
-    border-bottom: 4px solid #d6da00;
+    font-size: 3rem;
 }
-caption ,thead, tbody, tfoot {
-    background:rgb(139, 86, 54);
-    color: rgb(255, 255, 255);
+li {
+    background: rgb(255, 174, 98);
+    color: rgb(0, 0, 0);
+}
+p {
+    border-radius: 8px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    flex: 1 1 200px;
+    border: 1px solid rgb(214, 214, 214);
+}
+h2 {
+    background: rgb(255, 174, 98);
+    color: rgb(0, 0, 0);
+}
+h3 {
+    background: rgb(169, 221, 255);
+    color: rgb(0, 0, 0);
+}
+table {
+    background: rgb(196, 255, 196);
 }
