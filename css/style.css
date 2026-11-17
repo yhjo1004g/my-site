@@ -18,6 +18,17 @@ main {
 }
 h1 {
     font-size: 3rem;
+    align-items: center;
+    border-radius: 8px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    flex: 1 1 200px;
+    border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    width: 60%;       
+    margin: 0 auto;
+    text-align: center;
 }
 li {
     background: rgb(255, 174, 98);
@@ -29,15 +40,70 @@ p {
     box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
     flex: 1 1 200px;
     border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;       
+    margin: 0 auto;
+    text-align: center;
 }
 h2 {
     background: rgb(255, 174, 98);
     color: rgb(0, 0, 0);
+    align-items: center;
+        border-radius: 8px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    flex: 1 1 200px;
+    border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    width: 60%;       
+    margin: 0 auto;
+    text-align: center;
 }
 h3 {
     background: rgb(169, 221, 255);
     color: rgb(0, 0, 0);
+    align-items: center;
+        border-radius: 8px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    flex: 1 1 200px;
+    border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    width: 60%;       
+    margin: 0 auto;
+    text-align: center;
 }
 table {
     background: rgb(196, 255, 196);
+    width: 60%;       
+    margin: 0 auto;
+    text-align: center;
+}
+footer {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+div {
+    border-radius: 8px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    flex: 1 1 200px;
+    border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;       
+    margin: 0 auto;
+}
+ol {
+    background: rgb(255, 174, 98);
+    justify-content: center;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    flex: 1 1 200px;
+    border: 1px solid rgb(214, 214, 214);
 }
