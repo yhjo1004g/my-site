@@ -2,8 +2,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: black;
-    color: white;
+    background: rgb(67, 172, 81);
+    color: rgb(0, 0, 0);
 }
 header h1 {
     margin: 0;
@@ -31,7 +31,6 @@ h1 {
     text-align: center;
 }
 li {
-    background: rgb(255, 174, 98);
     color: rgb(0, 0, 0);
 }
 p {
@@ -99,5 +98,7 @@ ol {
     gap: 8px;
     padding: 16px;
   }
-  nav ul { flex-wrap: wrap; }
+  nav ul { 
+    flex-wrap: wrap;
+}
 }
