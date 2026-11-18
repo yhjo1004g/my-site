@@ -41,7 +41,7 @@ p {
     flex: 1 1 200px;
     border: 1px solid rgb(214, 214, 214);
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     width: 60%;       
     margin: 0 auto;
@@ -83,11 +83,6 @@ table {
     margin: 0 auto;
     text-align: center;
 }
-footer {
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 div {
     border-radius: 8px;
     padding: 16px 20px;
@@ -106,4 +101,9 @@ ol {
     box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
     flex: 1 1 200px;
     border: 1px solid rgb(214, 214, 214);
+}
+pooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
