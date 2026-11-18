@@ -2,8 +2,11 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgb(67, 172, 81);
-    color: rgb(0, 0, 0);
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+a {
+    color: white;
 }
 header h1 {
     margin: 0;
