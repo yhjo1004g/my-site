@@ -1,7 +1,146 @@
-table {
-  border-collapse: collapse;
+/* css/style.css */
+
+* {
+  box-sizing: border-box;
 }
-th, td {
-  border: 1px solid #999;
-  padding: 6px 12px;
+
+body {
+  margin: 0;
+  padding: 32px 16px;
+  background: #f3f5f7;
+  color: #222;
+  font-family: Arial, "Malgun Gothic", sans-serif;
+}
+
+.site {
+  width: min(900px, 100%);
+  margin: 0 auto;
+  background: #fff;
+  border: 1px solid #d5dbe1;
+}
+
+.site-header {
+  padding: 18px 24px;
+  color: #fff;
+  background: #2c4054;
+}
+
+.site-header h1 {
+  margin: 0 0 12px;
+  font-size: 21px;
+}
+
+.site-header nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.site-header a {
+  color: #fff;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+main {
+  padding: 28px 24px 36px;
+}
+
+main h2 {
+  margin: 0 0 18px;
+  font-size: 19px;
+}
+
+.course-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: auto;
+  text-align: center;
+  font-size: 14px;
+}
+
+.course-table caption {
+  padding: 0 0 10px;
+  font-weight: bold;
+}
+
+.course-table th,
+.course-table td {
+  border: 1px solid #b8bec5;
+  padding: 11px 8px;
+  vertical-align: middle;
+}
+
+.course-table thead th {
+  background: #f0f2f4;
+  font-weight: bold;
+}
+
+.course-table tbody tr:nth-child(even) {
+  background: #fafafa;
+}
+
+.course-table .num {
+  text-align: center;
+}
+
+.course-table tfoot th,
+.course-table tfoot td {
+  background: #f0f2f4;
+  font-weight: bold;
+}
+
+footer {
+  padding: 14px 24px;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 12px;
+}
+
+@media (max-width: 620px) {
+  main {
+    padding: 20px 10px;
+    overflow-x: auto;
+  }
+
+  .course-table {
+    min-width: 580px;
+  }
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+a {
+    color: white;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    display: flex; gap: 16px;
+    list-style: none; margin: 0; padding: 0;
+}
+main {
+    max-width: 800px; margin: 0 auto;
+    padding: 16px;
+}
+
+h1 {
+    font-size: 3rem;
+    align-items: center;
+    border-radius: 8px;
+    padding: 16px 20px;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 10%);
+    flex: 1 1 200px;
+    border: 1px solid rgb(214, 214, 214);
+    display: flex;
+    justify-content: space-between;
+    width: 60%;       
+    margin: 0 auto;
+    text-align: center;
 }
