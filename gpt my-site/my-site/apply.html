@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>신청서</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>홍길동의 사이트</h1>
+    <nav>
+      <a href="index.html">처음</a>
+      <a href="about.html">자기소개</a>
+      <a href="courses.html">수강 과목</a>
+      <a href="apply.html">신청서</a>
+    </nav>
+  </header>
+  <main>
+    <h2>신청서</h2>
+    <form action="https://httpbin.org/get" method="get">
+      <label for="name">이름</label>
+      <input id="name" name="name" required>
+      <label for="email">이메일</label>
+      <input id="email" name="email" type="email" required>
+      <label for="course">신청 과목</label>
+      <select id="course" name="course">
+        <option value="CS101">CS101 웹 프로그래밍 기초</option>
+        <option value="CS102">CS102 자바 입문</option>
+        <option value="DB201">DB201 데이터베이스</option>
+        <option value="CS103">CS103 알고리즘 기초</option>
+      </select>
+      <button type="submit">신청하기</button>
+    </form>
+  </main>
+  <footer>
+    <p>© 홍길동</p>
+    <p id="visit"></p>
+  </footer>
+  <script src="js/visit.js"></script>
+</body>
+</html>
